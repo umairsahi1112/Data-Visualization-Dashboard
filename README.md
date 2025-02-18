@@ -1,34 +1,32 @@
-📊 Sales Data Visualization Dashboard
-A sleek and interactive dashboard for visualizing sales data using Streamlit, Pandas, and Plotly.
+# 📊 Sales Data Visualization Dashboard
 
-🚀 Features
-✅ Data Loading – Import sales data from an Excel file.
-✅ Filtering – Filter data by City, Customer Type, and Gender.
-✅ Key Performance Indicators (KPIs) – Track Total Sales, Average Rating, and Sales per Transaction.
-✅ Interactive Visualizations – View Sales by Product Line and Sales by Hour with dynamic charts.
-✅ Custom Styling – A clean UI by hiding Streamlit's default menu, footer, and header.
+This project is a Sales Data Visualization Dashboard built using Streamlit, Pandas, and Plotly. The dashboard allows users to visualize sales data, apply filters, and view key performance indicators (KPIs).
 
-📥 Installation
-1️⃣ Clone the Repository
+## 🚀 Features
 
-sh
-Copy
-Edit
-git clone https://github.com/yourusername/sales-data-visualization-dashboard.git
-cd sales-data-visualization-dashboard
-2️⃣ Install Dependencies
+- **Data Loading**: Load sales data from an Excel file.
+- **Filtering**: Apply filters based on city, customer type, and gender.
+- **KPIs**: Display total sales, average rating, and average sale per transaction.
+- **Visualizations**: Bar charts for sales by product line and sales by hours.
+- **Custom Styling**: Hide Streamlit's default menu, footer, and header for a cleaner look.
 
-sh
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Add Sales Data
-Place supermarkt_sales.xlsx in the project directory.
+## 📥 Installation
 
-▶️ Usage
-Run the Streamlit web app:
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/sales-data-visualization-dashboard.git
+    cd sales-data-visualization-dashboard
+    ```
 
-sh
-Copy
-Edit
+2. Install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Place the `supermarkt_sales.xlsx` file in the project directory.
+
+## Usage
+
+To run the Streamlit web app, use the following command:
+```sh
 streamlit run Data_visualization_app.py
